@@ -30,17 +30,17 @@ cp Build/OvmfX64/DEBUG_GCC4?/FV/OVMF.fd bios64.bin
 ### 32-bit UEFI in 64-bit system (emulating BayTrail)
 
 ```
-qemu-system-x86_64 -bios ~/src/blkn/efi/bios32.bin ....<other qemu options>.... 
+qemu-system-x86_64 -bios /path/to/bios32.bin ....<other qemu options>.... 
 ```
 
 ### 64-bit UEFI in 64-bit system
 
 ```
-qemu-system-x86_64 -bios ~/src/blkn/efi/bios64.bin ....<other qemu options>.... 
+qemu-system-x86_64 -bios /path/to/bios64.bin ....<other qemu options>.... 
 ```
 
 ### 32-bit UEFI in 32-bit system (emulating old Macs
 
 ```
-qemu-system-i386 -bios ~/src/blkn/efi/bios32.bin ....<other qemu options>.... 
+qemu-system-i386 -bios /path/to/bios32.bin ....<other qemu options>.... 
 ```
