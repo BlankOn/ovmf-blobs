@@ -13,7 +13,7 @@ cd edk2
 ### bios32.bin
 
 ```
-OvmfPkg/build.sh -a X32 -n 4
+OvmfPkg/build.sh -a IA32 -n 4
 cp Build/OvmfX64/DEBUG_GCC4?/FV/OVMF.fd bios32.bin
 ```
 
